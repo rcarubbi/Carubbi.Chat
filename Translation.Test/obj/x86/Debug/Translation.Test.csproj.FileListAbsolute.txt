@@ -1,0 +1,14 @@
+d:\Projects\Carubbi.Chat\Translation.Test\bin\Debug\Translation.Test.exe
+d:\Projects\Carubbi.Chat\Translation.Test\bin\Debug\Translation.Test.pdb
+d:\Projects\Carubbi.Chat\Translation.Test\bin\Debug\Carubbi.Google.Translation.dll
+d:\Projects\Carubbi.Chat\Translation.Test\bin\Debug\Carubbi.Google.Translation.pdb
+d:\Projects\Carubbi.Chat\Translation.Test\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Projects\Carubbi.Chat\Translation.Test\obj\x86\Debug\Translation.Test.Form1.resources
+d:\Projects\Carubbi.Chat\Translation.Test\obj\x86\Debug\Translation.Test.Properties.Resources.resources
+d:\Projects\Carubbi.Chat\Translation.Test\obj\x86\Debug\ResGen.read.1.tlog
+d:\Projects\Carubbi.Chat\Translation.Test\obj\x86\Debug\ResGen.write.1.tlog
+d:\Projects\Carubbi.Chat\Translation.Test\obj\x86\Debug\Translation.Test.exe
+d:\Projects\Carubbi.Chat\Translation.Test\obj\x86\Debug\Translation.Test.pdb
+d:\Projects\Carubbi.Chat\Translation.Test\bin\Debug\Newtonsoft.Json.Net20.dll
+d:\Projects\Carubbi.Chat\Translation.Test\bin\Debug\Newtonsoft.Json.Net20.pdb
+d:\Projects\Carubbi.Chat\Translation.Test\bin\Debug\Newtonsoft.Json.Net20.xml

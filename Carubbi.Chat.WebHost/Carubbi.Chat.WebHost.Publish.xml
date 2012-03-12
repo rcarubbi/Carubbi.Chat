@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://localhost" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="ChatService" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/Carubbi.Chat.Services.dll" publishTime="12/24/2010 01:35:57" />
+    <file relUrl="ChatService.svc" publishTime="12/23/2010 02:52:31" />
+    <file relUrl="Web.config" publishTime="12/24/2010 01:38:37" />
+    <file relUrl="bin/Carubbi.Chat.WebHost.dll" publishTime="12/24/2010 01:35:57" />
+    <file relUrl="bin/Carubbi.Chat.Services.pdb" publishTime="12/24/2010 01:35:57" />
+    <file relUrl="bin/Carubbi.Chat.WebHost.pdb" publishTime="12/24/2010 01:35:57" />
+  </publishProfile>
+</publishData>
