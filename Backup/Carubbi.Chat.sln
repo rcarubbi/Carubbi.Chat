@@ -1,8 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
-MinimumVisualStudioVersion = 10.0.40219.1
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carubbi.Chat.Services", "Carubbi.Chat.Services\Carubbi.Chat.Services.csproj", "{8424456A-5199-4679-8FA5-BF143604EE1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carubbi.Chat.WebHost", "Carubbi.Chat.WebHost\Carubbi.Chat.WebHost.csproj", "{0E0CC942-27D7-4B20-AF88-CDCE6329DBA2}"

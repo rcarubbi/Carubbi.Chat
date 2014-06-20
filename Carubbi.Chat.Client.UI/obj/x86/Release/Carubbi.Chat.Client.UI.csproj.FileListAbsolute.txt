@@ -43,3 +43,6 @@ I:\bkp\C#\Projects\Carubbi.Chat\Carubbi.Chat.Client.UI\obj\x86\Release\Carubbi.C
 I:\bkp\C#\Projects\Carubbi.Chat\Carubbi.Chat.Client.UI\obj\x86\Release\Carubbi.Chat.Client.UI.Properties.Resources.resources
 I:\bkp\C#\Projects\Carubbi.Chat\Carubbi.Chat.Client.UI\obj\x86\Release\ResGen.read.1.tlog
 I:\bkp\C#\Projects\Carubbi.Chat\Carubbi.Chat.Client.UI\obj\x86\Release\ResGen.write.1.tlog
+C:\Users\Carubbi\Source\Repos\Carubbi.Chat\Carubbi.Chat.Client.UI\bin\Release\Carubbi.Chat.Client.UI.exe.config
+C:\Users\Carubbi\Source\Repos\Carubbi.Chat\Carubbi.Chat.Client.UI\obj\x86\Release\Carubbi.Chat.Client.UI.exe
+C:\Users\Carubbi\Source\Repos\Carubbi.Chat\Carubbi.Chat.Client.UI\obj\x86\Release\Carubbi.Chat.Client.UI.pdb
