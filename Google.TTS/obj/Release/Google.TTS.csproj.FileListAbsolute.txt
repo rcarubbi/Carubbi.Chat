@@ -1,5 +1,0 @@
-D:\Projects\Carubbi.Chat\Google.TTS\bin\Release\Google.TTS.dll
-D:\Projects\Carubbi.Chat\Google.TTS\bin\Release\Google.TTS.pdb
-D:\Projects\Carubbi.Chat\Google.TTS\obj\Release\ResolveAssemblyReference.cache
-D:\Projects\Carubbi.Chat\Google.TTS\obj\Release\Google.TTS.dll
-D:\Projects\Carubbi.Chat\Google.TTS\obj\Release\Google.TTS.pdb
