@@ -36,6 +36,9 @@
     <ApplicationIcon>Chat-icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Google.TTS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Carubbi.Google.TTS.1.0.0.0\lib\net35\Google.TTS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -81,6 +84,7 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,13 +120,13 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Google.TTS\Carubbi.Google.Translation.csproj">
-      <Project>{2D94F574-1B70-4009-B2C2-35CAA8A89855}</Project>
-      <Name>Carubbi.Google.Translation</Name>
-    </ProjectReference>
+    <WCFMetadataStorage Include="Service References\ChatService\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\ChatService\" />
+    <ProjectReference Include="..\Carubbi.Google.Translation\Carubbi.Google.Translation.csproj">
+      <Project>{2d94f574-1b70-4009-b2c2-35caa8a89855}</Project>
+      <Name>Carubbi.Google.Translation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carubbi.Chat.Services", "Carubbi.Chat.Services\Carubbi.Chat.Services.csproj", "{8424456A-5199-4679-8FA5-BF143604EE1E}"
 EndProject
@@ -12,9 +12,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carubbi.Chat.Client.UI", "C
 		{0E0CC942-27D7-4B20-AF88-CDCE6329DBA2} = {0E0CC942-27D7-4B20-AF88-CDCE6329DBA2}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carubbi.Google.Translation", "Google.TTS\Carubbi.Google.Translation.csproj", "{2D94F574-1B70-4009-B2C2-35CAA8A89855}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translation.Test", "Translation.Test\Translation.Test.csproj", "{1E832926-8E6B-4DC2-B22C-0E943EEF85E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carubbi.Google.Translation", "Carubbi.Google.Translation\Carubbi.Google.Translation.csproj", "{2D94F574-1B70-4009-B2C2-35CAA8A89855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,16 +56,6 @@ Global
 		{C2480CE4-A203-4919-A124-84316BD9158B}.Release|Mixed Platforms.Build.0 = Release|x86
 		{C2480CE4-A203-4919-A124-84316BD9158B}.Release|x86.ActiveCfg = Release|x86
 		{C2480CE4-A203-4919-A124-84316BD9158B}.Release|x86.Build.0 = Release|x86
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|x86.ActiveCfg = Release|Any CPU
 		{1E832926-8E6B-4DC2-B22C-0E943EEF85E8}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{1E832926-8E6B-4DC2-B22C-0E943EEF85E8}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{1E832926-8E6B-4DC2-B22C-0E943EEF85E8}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -76,8 +66,23 @@ Global
 		{1E832926-8E6B-4DC2-B22C-0E943EEF85E8}.Release|Mixed Platforms.Build.0 = Release|x86
 		{1E832926-8E6B-4DC2-B22C-0E943EEF85E8}.Release|x86.ActiveCfg = Release|x86
 		{1E832926-8E6B-4DC2-B22C-0E943EEF85E8}.Release|x86.Build.0 = Release|x86
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Debug|x86.Build.0 = Debug|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D94F574-1B70-4009-B2C2-35CAA8A89855}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A56032F-D7C6-4E25-809B-97038EF9607B}
 	EndGlobalSection
 EndGlobal

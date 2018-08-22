@@ -75,8 +75,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Google.TTS\Carubbi.Google.Translation.csproj">
-      <Project>{2D94F574-1B70-4009-B2C2-35CAA8A89855}</Project>
+    <ProjectReference Include="..\Carubbi.Google.Translation\Carubbi.Google.Translation.csproj">
+      <Project>{2d94f574-1b70-4009-b2c2-35caa8a89855}</Project>
       <Name>Carubbi.Google.Translation</Name>
     </ProjectReference>
   </ItemGroup>
