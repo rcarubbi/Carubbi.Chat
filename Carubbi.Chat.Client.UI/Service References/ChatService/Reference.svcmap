@@ -18,13 +18,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost/chatservice.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:2519/ChatService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ChatService.xsd" MetadataType="Schema" ID="168f5e33-b0b6-4b98-81ce-77ca41473a09" SourceId="1" SourceUrl="http://raphael-pc/ChatService.svc?xsd=xsd0" />
-    <MetadataFile FileName="ChatService.wsdl" MetadataType="Wsdl" ID="cd72bca2-9dc7-41b6-ad20-99a4e0e1439c" SourceId="1" SourceUrl="http://raphael-pc/ChatService.svc?wsdl" />
-    <MetadataFile FileName="ChatService1.xsd" MetadataType="Schema" ID="74978096-17fe-4e7d-ba01-e9888b757ecc" SourceId="1" SourceUrl="http://raphael-pc/ChatService.svc?xsd=xsd1" />
-    <MetadataFile FileName="ChatService.disco" MetadataType="Disco" ID="dd3647c2-8f79-48c1-91fc-27274423e0c0" SourceId="1" SourceUrl="http://raphael-pc/ChatService.svc?disco" />
+    <MetadataFile FileName="ChatService2.xsd" MetadataType="Schema" ID="d18c01e2-5ed3-4126-86f9-84994761a9da" SourceId="1" SourceUrl="http://localhost:2519/ChatService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ChatService21.xsd" MetadataType="Schema" ID="ecf9011a-cced-4844-afdc-0c0813201e33" SourceId="1" SourceUrl="http://localhost:2519/ChatService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ChatService1.wsdl" MetadataType="Wsdl" ID="afa62a03-b0b8-4f2d-8660-25e8c848930f" SourceId="1" SourceUrl="http://localhost:2519/ChatService.svc?wsdl" />
+    <MetadataFile FileName="ChatService1.disco" MetadataType="Disco" ID="497fddb9-d1f9-4658-9e70-69cebd770e36" SourceId="1" SourceUrl="http://localhost:2519/ChatService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

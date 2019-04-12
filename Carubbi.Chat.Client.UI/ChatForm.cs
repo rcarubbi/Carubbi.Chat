@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using System.ServiceModel;
-using Carubbi.Chat.Client.UI.ChatService;
+﻿using Carubbi.Chat.Client.UI.ChatService;
 using Carubbi.Chat.Client.UI.Properties;
-using Carubbi.Google.Translation;
-using System.Globalization;
-using tts = Google.TTS;
+using Carubbi.Google.TTS;
+using System;
+using System.ServiceModel;
+using System.Windows.Forms;
+
 
 namespace Carubbi.Chat.Client.UI
 {
@@ -67,8 +60,7 @@ namespace Carubbi.Chat.Client.UI
                     corpoMensagem = string.Join(":", partesMensagemLimpa);
 
                 }
-                tts.TtsHelper.ReproduzirSincrono(intro, tts.Idioma.Portugues);
-                tts.TtsHelper.ReproduzirSincrono(TranslationHelper.Translate(corpoMensagem, null, new CultureInfo("pt-BR")), tts.Idioma.Portugues);
+                GoogleTTS.Play($"{intro} {corpoMensagem}", Language.BrazilianPortuguese);
             }
         }
 

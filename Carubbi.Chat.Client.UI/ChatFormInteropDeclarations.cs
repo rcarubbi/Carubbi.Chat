@@ -40,9 +40,6 @@ namespace Carubbi.Chat.Client.UI
       
         [DllImport("winmm.dll", EntryPoint= "mciSendStringA", CharSet=CharSet.Ansi)]
         internal static extern int mciSendString(string lpstrCommand, StringBuilder lpstrReturnString, int uReturnLength, IntPtr hwndCallback);
-
-
-
         #endregion
     }
 }

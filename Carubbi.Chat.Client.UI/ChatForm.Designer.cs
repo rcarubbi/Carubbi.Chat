@@ -55,20 +55,21 @@ namespace Carubbi.Chat.Client.UI
             this.txtMessage.Location = new System.Drawing.Point(13, 514);
             this.txtMessage.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(653, 21);
+            this.txtMessage.Size = new System.Drawing.Size(653, 28);
             this.txtMessage.TabIndex = 2;
             // 
             // lstUsers
             // 
-            this.lstUsers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstUsers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lstUsers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lstUsers.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstUsers.FormattingEnabled = true;
+            this.lstUsers.ItemHeight = 20;
             this.lstUsers.Location = new System.Drawing.Point(560, 66);
             this.lstUsers.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstUsers.Name = "lstUsers";
-            this.lstUsers.Size = new System.Drawing.Size(159, 392);
+            this.lstUsers.Size = new System.Drawing.Size(159, 382);
             this.lstUsers.TabIndex = 5;
             // 
             // txtChat
@@ -97,7 +98,7 @@ namespace Carubbi.Chat.Client.UI
             this.lblMensagem.Location = new System.Drawing.Point(11, 495);
             this.lblMensagem.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMensagem.Name = "lblMensagem";
-            this.lblMensagem.Size = new System.Drawing.Size(80, 13);
+            this.lblMensagem.Size = new System.Drawing.Size(117, 20);
             this.lblMensagem.TabIndex = 8;
             this.lblMensagem.Text = "Mensagem:";
             // 
@@ -117,7 +118,7 @@ namespace Carubbi.Chat.Client.UI
             this.lblLogin.Location = new System.Drawing.Point(15, 13);
             this.lblLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(46, 13);
+            this.lblLogin.Size = new System.Drawing.Size(69, 20);
             this.lblLogin.TabIndex = 10;
             this.lblLogin.Text = "Login:";
             // 
@@ -166,7 +167,7 @@ namespace Carubbi.Chat.Client.UI
             this.chkFalar.AutoSize = true;
             this.chkFalar.Location = new System.Drawing.Point(560, 464);
             this.chkFalar.Name = "chkFalar";
-            this.chkFalar.Size = new System.Drawing.Size(60, 17);
+            this.chkFalar.Size = new System.Drawing.Size(82, 24);
             this.chkFalar.TabIndex = 14;
             this.chkFalar.Text = "Falar";
             this.chkFalar.UseVisualStyleBackColor = true;
@@ -174,7 +175,7 @@ namespace Carubbi.Chat.Client.UI
             // ChatForm
             // 
             this.AcceptButton = this.btnSend;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
